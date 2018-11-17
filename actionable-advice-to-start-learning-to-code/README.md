@@ -25,7 +25,7 @@ Remember: it is not a sprint. It is a long long marathon. Don’t expect to lear
 
 #### Tip number two: keep learning
 
-As a software engineer, one of my challenges is always keeping track of new things that are emergingin our world: new libraries like [ReactJS in 2013](https://en.wikipedia.org/wiki/React_(JavaScript_libary), web applications like [SPA](https://en.wikipedia.org/wiki/Single-page_application), [PWA](https://en.wikipedia.org/wiki/Progressive_web_app), tech trends like Machine Learning, AI, cryptocurrency (Blockchain Blockchain Blockchain!), and so on.
+As a software engineer, one of my challenges is always keeping track of new things that are emerging in our world: new libraries like [ReactJS in 2013](https://en.wikipedia.org/wiki/React_(JavaScript_libary)), web applications like [SPA](https://en.wikipedia.org/wiki/Single-page_application), [PWA](https://en.wikipedia.org/wiki/Progressive_web_app), tech trends like Machine Learning, AI, cryptocurrency (Blockchain Blockchain Blockchain!), and so on.
 
 I’m not saying we need to learn everything and overwhelm ourselves. My point is thatnewthings are created so fast in the tech world, so we need to embrace the **lifelong learning** mindset.
 
@@ -66,7 +66,7 @@ David J. Malan is definitely one of the best professors I had. And Codecademy he
 
 [Introduction to Computer Science](https://br.udacity.com/course/intro-to-computer-science--cs101/) by Udacity. It covers pretty much everything you need to start understanding programming. Udacity courses always have “practice time” after each theory and concept you learn.
 
-MIT’s [Introduction to Algorithms](http://courses.csail.mit.edu/6.006/fall11/notes.shtml) will teach you algorithmic thinking. Understanding algorithms and how they work is the most important thing you should learn when starting your coding journey. Other great resources are algorithm books like [Introduction to Algorithm](https://www.amazon.com/Introduction-Algorithms 3rd-MIT-Press/dp/0262033844) by CLRS and [Algorithms](https://www.amazon.com/Algorithms-4th-RobertSedgewick/dp/032157351X/ref=pd_sim_14_3?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=Y548PDB04MJN6BH8MYFB&pd_rd_w=UgKc5&pd_rd_wg=CvgEt&psc=1&refRID=Y548PDB04MJN6BH8MYFB) by Robert Sedwick.
+MIT’s [Introduction to Algorithms](http://courses.csail.mit.edu/6.006/fall11/notes.shtml) will teach you algorithmic thinking. Understanding algorithms and how they work is the most important thing you should learn when starting your coding journey. Other great resources are algorithm books like [Introduction to Algorithm](https://www.amazon.com/Introduction-Algorithms3rd-MIT-Press/dp/0262033844) by CLRS and [Algorithms](https://www.amazon.com/Algorithms-4th-RobertSedgewick/dp/032157351X/ref=pd_sim_14_3?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=Y548PDB04MJN6BH8MYFB&pd_rd_w=UgKc5&pd_rd_wg=CvgEt&psc=1&refRID=Y548PDB04MJN6BH8MYFB) by Robert Sedwick.
 
 Here you’ll start overwhelming yourself with the tons of resources we have on the internet. But **try not to overwhelm yourself**. You don’t need to do every single course, focus on one, learn, practice, build confidence.Remember, it’s a journey. One line of code at a time :)
 
