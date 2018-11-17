@@ -3,7 +3,7 @@
 ![](https://cdn-images-1.medium.com/max/1600/1*XthWUtD_NU-VJ7ESA2qX3A.jpeg)
 
 When I started sharing my journey about [mastering
-programming](https://medium.com/the-renaissance-developer) and [hacking my education](https://medium.com/the-renaissance-developer/h w-i-hack-my-education-354fb5b8a025), people got really interested and asked me a lot about how to start learning to code.
+programming](https://medium.com/the-renaissance-developer) and [hacking my education](https://medium.com/the-renaissance-developer/how-i-hack-my-education-354fb5b8a025), people got really interested and asked me a lot about how to start learning to code.
 
 I really want to help future developers in their journey and the amount of questions on how to start inspired me to write this article.
 
@@ -25,7 +25,7 @@ Remember: it is not a sprint. It is a long long marathon. Don’t expect to lear
 
 #### Tip number two: keep learning
 
-As a software engineer, one of my challenges is always keeping track of new things that are emergingin our world: new libraries like [ReactJS in 2013](https://en.wikipedia.org/wiki/React_(JavaScript_lib ary)), web applications like [SPA](https://en.wikipedia.org/wiki/Single-page_applicati n), [PWA](https://en.wikipedia.org/wiki/Progressive_web_app), tech trends like Machine Learning, AI, cryptocurrency (Blockchain Blockchain Blockchain!), and so on.
+As a software engineer, one of my challenges is always keeping track of new things that are emergingin our world: new libraries like [ReactJS in 2013](https://en.wikipedia.org/wiki/React_(JavaScript_libary), web applications like [SPA](https://en.wikipedia.org/wiki/Single-page_application), [PWA](https://en.wikipedia.org/wiki/Progressive_web_app), tech trends like Machine Learning, AI, cryptocurrency (Blockchain Blockchain Blockchain!), and so on.
 
 I’m not saying we need to learn everything and overwhelm ourselves. My point is thatnewthings are created so fast in the tech world, so we need to embrace the **lifelong learning** mindset.
 
@@ -39,7 +39,7 @@ Go for small changes, but do them regularly. One code at a time.
 
 **Don’t compare yourself with “experienced engineers”** or “coder genius”is tip number four.First, it is not fair at all. Second, you are just starting. Keep focused on your studies.
 
-It is easy to compare yourself with your teammatesor [programming genius](https://en.wikipedia.org/wiki/Gennady_Korotkevich , but it just increases the impostorsyndromeinside you.Don’t let it stop your programming journey.
+It is easy to compare yourself with your teammates or [programming genius](https://en.wikipedia.org/wiki/Gennady_Korotkevich), but it just increases the impostor syndrome inside you. Don’t let it stop your programming journey.
 
 Practice is the key. **Find ways to learn the concepts and practice it.** This is tip five. Building the foundation with concepts and theories is important, but be practical. Try. Experiment. We will dive into this  later, but practice is key!
 
@@ -54,7 +54,7 @@ There, I learned the basics with Python on Codecademy and C in CS50. But my opin
 > [Be language
 > agnostic](http://www.gayle.com/blog/2014/07/09/15-pieces-of-career-advice-software-developers-should-follow). Language is just a tool. It’s valuable to know a language deeply, but it’s also valuable to be learning new things. The best developers tend not to identify as a ____ developer.— [Gayle Laakmann McDowell](https://medium.com/u/e21bc4f4525e)
 
-Probably, when you choose a course, they will teach you with a specific programming language. But don’t worry! Focus on the basic concepts (and maybe fall in love with the programming language as I did with [Python](https://medium.freecodecamp.org/learning-python- rom-zero-to-hero-120ea540b567) and [Ruby](https://medium.freecodecamp.org/learning-ruby-from zero-to-hero-90ad4eecc82d)).
+Probably, when you choose a course, they will teach you with a specific programming language. But don’t worry! Focus on the basic concepts (and maybe fall in love with the programming language as I did with [Python](https://medium.freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567) and [Ruby](https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d).
 
 #### Why did I choose these courses?
 
@@ -66,7 +66,7 @@ David J. Malan is definitely one of the best professors I had. And Codecademy he
 
 [Introduction to Computer Science](https://br.udacity.com/course/intro-to-computer-science--cs101/) by Udacity. It covers pretty much everything you need to start understanding programming. Udacity courses always have “practice time” after each theory and concept you learn.
 
-MIT’s [Introduction to Algorithms](http://courses.csail.mit.edu/6.006/fall11/notes.shtml) will teach you algorithmic thinking. Understanding algorithms and how they work is the most important thing you should learn when starting your coding journey. Other great resources are algorithm books like [Introduction to Algorithm](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844) by CLRS and [Algorithms](https://www.amazon.com/Algorithms-4th-Robert Sedgewick/dp/032157351X/ref=pd_sim_14_3?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=Y548PDB04MJN6BH8MYFB&pd_rd_w=UgKc5&pd_rd_wg=CvgEt&psc=1&refRID=Y548PDB04MJN6BH8MYFB) by Robert Sedwick.
+MIT’s [Introduction to Algorithms](http://courses.csail.mit.edu/6.006/fall11/notes.shtml) will teach you algorithmic thinking. Understanding algorithms and how they work is the most important thing you should learn when starting your coding journey. Other great resources are algorithm books like [Introduction to Algorithm](https://www.amazon.com/Introduction-Algorithms 3rd-MIT-Press/dp/0262033844) by CLRS and [Algorithms](https://www.amazon.com/Algorithms-4th-RobertSedgewick/dp/032157351X/ref=pd_sim_14_3?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=Y548PDB04MJN6BH8MYFB&pd_rd_w=UgKc5&pd_rd_wg=CvgEt&psc=1&refRID=Y548PDB04MJN6BH8MYFB) by Robert Sedwick.
 
 Here you’ll start overwhelming yourself with the tons of resources we have on the internet. But **try not to overwhelm yourself**. You don’t need to do every single course, focus on one, learn, practice, build confidence.Remember, it’s a journey. One line of code at a time :)
 
@@ -158,7 +158,7 @@ If you have colleagues or friends that have more experience ask for help, probab
 
 Another learning we can get from Doug’s story: he set a goal to make the simplest app for the first time.
 
-> “I built the [first app version](https://play.google.com/store/apps/details?id=co .iacovelli.usp) and published it to Play Store. Then I learned more and more about Java/Kotlin/Android and could implement more features on this app. But it was a time-consuming process. I needed a lot of persistence” — Doug
+> “I built the [first app version](https://play.google.com/store/apps/details?id=co.iacovelli.usp) and published it to Play Store. Then I learned more and more about Java/Kotlin/Android and could implement more features on this app. But it was a time-consuming process. I needed a lot of persistence” — Doug
 
 It is so nice when we are on a learning curve part that we feel confident and are just “in the flow” to keep learning and building. But I totally agree with Doug, when you start learning something new, you need a lot of persistence to keep your learning consistent.
 
@@ -166,7 +166,7 @@ Now Doug works as a Android developer. He has 2 personal projects (mobile apps) 
 
 > “I learned how to program by working on lots of different website projects starting from a pretty young age. The best way to learn a new skill is to practice, practice, practice. It doesn’t matter what you build, as long as you pick something and start.” — [Feross Aboukhadijeh](https://medium.com/u/1299c645ef11)
 
-In [Feross answer](https://www.quora.com/How-did-Feross-Aboukhadijeh learn-to-program-And-if-he-could-do-it-over-again-what-would-he-do-different-What-language-would-he-start-with/answer/Feross-Aboukhadijeh?) on [Quora](https://medium.com/@quoraanswers), he tells how he learned to code by building lots of side projects. His story is so inspiring. You notice how he keep making progress project by project. His advice to learn to program:
+In [Feross answer](https://www.quora.com/How-did-Feross-Aboukhadijeh-learn-to-program-And-if-he-could-do-it-over-again-what-would-he-do-different-What-language-would-he-start-with/answer/Feross-Aboukhadijeh?) on [Quora](https://medium.com/@quoraanswers), he tells how he learned to code by building lots of side projects. His story is so inspiring. You notice how he keep making progress project by project. His advice to learn to program:
 
 * Do side projects.
 * Buy and read programming books.
@@ -199,7 +199,7 @@ To keep yourself accountable, I found out an interesting project you can do dail
 
 And it really works. You keep yourself accountable, you keep your project going and track your progress. Everything in a public repository on GitHub, so you can also share with your friends. Collaborate with the GitHub community. And share and inspire other people.
 
-Searching for 100 days of code stories, I found out “[How I Coded Everyday for 365 Days](https://hackernoon.com/how-i-coded-everyday-for-365 days-67ebb5fc7ae)” by [Emily](https://medium.com/@emilyyu_17465). Such an inspiring story of discipline and willingness to learn to code.
+Searching for 100 days of code stories, I found out “[How I Coded Everyday for 365 Days](https://hackernoon.com/how-i-coded-everyday-for-365days-67ebb5fc7ae)” by [Emily](https://medium.com/@emilyyu_17465). Such an inspiring story of discipline and willingness to learn to code.
 
 It’s pretty cool how she writes about her projects and how she learned through the year. The projects were from iOS apps using Swift programming language, to web development using the whole stack (HTML, CSS, JS, Flask — Python web framework). Go read the [full article](https://hackernoon.com/how-i-coded-everyday-for-365-days-67ebb5fc7ae).
 
@@ -229,7 +229,7 @@ Code](https://medium.freecodecamp.org/successfully-teaching-yourself-how-to-code
 year](https://medium.freecodecamp.org/how-i-went-from-fashion-model-to-software-engineer-in-1-year-a7399a40d9e7) by [Madison Kanna](https://medium.com/@madisonkanna)
 * [BaseCS](https://medium.com/basecs) by [Vaidehi Joshi](https://medium.com/@vaidehijoshi)
 * [Here’s Why Learning How To Code Is So
-Hard](https://medium.com/the-mission/heres-why-learning-how-to-code-is-so-hard-and-what-to-do-about-it-3d6fda152409 by [Kevin Kononenko](https://medium.com/@kevink)
+Hard](https://medium.com/the-mission/heres-why-learning-how-to-code-is-so-hard-and-what-to-do-about-it-3d6fda152409) by [Kevin Kononenko](https://medium.com/@kevink)
 * [I Want to Learn Programming but I Don’t Know where to
 Start](https://codeburst.io/i-want-to-learn-programming-but-i-dont-know-where-to-start-80dd2d55e1fd) by [Robyn Silber](https://medium.com/@robynjsilber)
 
@@ -240,7 +240,7 @@ I really like to watch vlogs and see people’s lifestyle on YouTube.
 * [Fun Fun Function](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q) is a channel run by [Mattias Petter Johansson](https://medium.com/@mpjme), a former Spotify Engineer. It started with JavaScript, but lately, he is talking about development in general. I really like how he puts his ideas and present each topic.
 * [Mayuko](https://www.youtube.com/user/hellomayuko) is an iOS software engineer working at [Patreon](https://medium.com/@Patreon). She also talks about engineering and lifestyle in general.
 * [CS Dojo](https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A) is really focused on programming interview advice, algorithms and data structure stuff. This channel is from [YK Sugishita](https://medium.com/@ykdojo), a former Google Engineer in Canada.
-* [Joma Tech](https://www.youtube.com/channel/UCV0qA-eDDICsRR9rPc G7tw) is the funniest and more entertaining YouTube channel among all. [Jonathan Ma](https://medium.com/@joma) is a data scientist at Facebook. He vlogs about his engineer life and also gives coding interview advice based on his experience interning in a bunch of tech companies.
+* [Joma Tech](https://www.youtube.com/channel/UCV0qA-eDDICsRR9rPcG7tw) is the funniest and more entertaining YouTube channel among all. [Jonathan Ma](https://medium.com/@joma) is a data scientist at Facebook. He vlogs about his engineer life and also gives coding interview advice based on his experience interning in a bunch of tech companies.
 
 ### That’s all!
 
