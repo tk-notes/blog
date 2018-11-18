@@ -2,8 +2,7 @@
 
 ![](https://cdn-images-1.medium.com/max/1600/1*XthWUtD_NU-VJ7ESA2qX3A.jpeg)
 
-When I started sharing my journey about [mastering
-programming](https://medium.com/the-renaissance-developer) and [hacking my education](https://medium.com/the-renaissance-developer/how-i-hack-my-education-354fb5b8a025), people got really interested and asked me a lot about how to start learning to code.
+When I started sharing my journey about [mastering programming](https://medium.com/the-renaissance-developer) and [hacking my education](https://medium.com/the-renaissance-developer/how-i-hack-my-education-354fb5b8a025), people got really interested and asked me a lot about how to start learning to code.
 
 I really want to help future developers in their journey and the amount of questions on how to start inspired me to write this article.
 
@@ -68,7 +67,7 @@ David J. Malan is definitely one of the best professors I had. And Codecademy he
 
 MIT’s [Introduction to Algorithms](http://courses.csail.mit.edu/6.006/fall11/notes.shtml) will teach you algorithmic thinking. Understanding algorithms and how they work is the most important thing you should learn when starting your coding journey. Other great resources are algorithm books like [Introduction to Algorithm](https://www.amazon.com/Introduction-Algorithms3rd-MIT-Press/dp/0262033844) by CLRS and [Algorithms](https://www.amazon.com/Algorithms-4th-RobertSedgewick/dp/032157351X/ref=pd_sim_14_3?_encoding=UTF8&pd_rd_i=032157351X&pd_rd_r=Y548PDB04MJN6BH8MYFB&pd_rd_w=UgKc5&pd_rd_wg=CvgEt&psc=1&refRID=Y548PDB04MJN6BH8MYFB) by Robert Sedwick.
 
-Here you’ll start overwhelming yourself with the tons of resources we have on the internet. But **try not to overwhelm yourself**. You don’t need to do every single course, focus on one, learn, practice, build confidence.Remember, it’s a journey. One line of code at a time :)
+Here you’ll start overwhelming yourself with the tons of resources we have on the internet. But **try not to overwhelm yourself**. You don’t need to do every single course, focus on one, learn, practice, build confidence. Remember, it’s a journey. One line of code at a time :)
 
 ### Training, Practicing, Coding, Building
 
@@ -138,14 +137,6 @@ I felt I was ready to develop a full stack website. So I built an online booksto
 
 The first real life product I developed was [aLavadeira](https://www.alavadeira.com/) responsive website. And now I build the [Worldpackers](http://worldpackers.com/) web product and API for the mobile apps for more than 900K travelers and host all around the world.
 
-*****
-
-> Develop new projects to build your coding foundation. Build projects with
-> [Ruby](https://onemonth.com/courses/ruby?mbsy=lG6tt&discount_code=TKRuby1&campaignid=33446&mbsy_source=1c3d9863-622a-4e4c-8f4f-eb7e65d53fd4) and [Python One Month
-Bootcamp](https://onemonth.com/courses/python?mbsy=lG6tv&discount_code=TKPython1&campaignid=33447&mbsy_source=ad8dca5f-880b-4034-9e85-d7134d65e665).
-
-*****
-
 My good friend [Douglas](https://medium.com/@douglas.iacovelli) has a great story on how he started to code and develop apps. He learned the fundamental concepts at college, but building mobile apps was something he was always curious about. He tried to build many Android apps, but soon he gave up.
 
 > “I simply didn’t know how to start, because I had a lot of things to learn, and I didn’t feel ready to build an app. There were so many different things to learn and ways to do the same thing, that I got stuck trying to figure out which was the right or the best. The 2 most important things at this stage were: 1. Set a simple goal and try to learn the basics to achieve that. 2. Avoid perfectionism and just do it.”— Doug
@@ -190,8 +181,7 @@ API to build and analyze stock charts.
 * If you want to build a full product, start with an online bookstore, product
 inventory, or a blog.
 
-The list goes on and on. Here [another
-list](https://github.com/karan/Projects#networking) that can help you choose the project. But I agree with Feross, it doesn’t matter what you build, as long as you pick something and start. So start building!You’ll have problems, you’ll get stuck. But you’ll learn A LOT!
+The list goes on and on. Here [another list (https://github.com/karan/Projects#networking) that can help you choose the project. But I agree with Feross, it doesn’t matter what you build, as long as you pick something and start. So start building!You’ll have problems, you’ll get stuck. But you’ll learn A LOT!
 
 #### I know that it is pretty challenging to keep your project going.
 
@@ -250,6 +240,4 @@ You can see the documentation of my complete journey to learn and master program
 
 Have fun! Keep learning and coding.
 
-Check out my
-[Twitter](https://twitter.com/LeandroTk_) &
-[Github](https://github.com/LeandroTk) ☺
+Check out my [Twitter](https://twitter.com/LeandroTk_) & [Github](https://github.com/LeandroTk) ☺
