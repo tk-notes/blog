@@ -1,3 +1,7 @@
+| Medium | Dev.to | Codementor  |
+|---|---|---|
+| [:link:](https://medium.freecodecamp.org/actionable-advice-to-start-learning-to-code-256833f16f78)  | [:link:](https://dev.to/leandrotk_/actionable-advice-to-start-learning-to-code-38g0) | [:link:](https://www.codementor.io/leandrotk100/actionable-advice-to-start-learning-to-code-pea4aot66) |
+
 # Actionable advice to start learning to code
 
 ![](https://cdn-images-1.medium.com/max/1600/1*XthWUtD_NU-VJ7ESA2qX3A.jpeg)
