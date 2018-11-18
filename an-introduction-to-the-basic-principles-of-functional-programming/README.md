@@ -1,6 +1,6 @@
-### :pencil: [Medium Post](https://medium.freecodecamp.org/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84)
-
-### :computer: [Source  Code](https://github.com/LeandroTk/functional-programming-article-source-code)
+| Medium | Dev.to | Codementor | Source code |
+|---|---|---|---|
+| [:link:](https://medium.freecodecamp.org/an-introduction-to-the-basic-principles-of-functional-programming-a2c2a15c84)  | [:link:](https://dev.to/leandrotk_/an-introduction-to-the-basic-principles-of-functional-programming-3e0n) | :x: | [:computer:](https://github.com/LeandroTk/functional-programming-article-source-code) |
 
 ********
 
