@@ -19,7 +19,7 @@ When I started I fell inlove with programming. My number one tip is to learn it 
 
 Why do I say that? I’m a big fan of “do what you are passionate about”. It looks cliché, but it always worked for me. And if you get started with programming, you’ll need this inner motivation. Passion and interest help you be consistent and disciplined with your learning journey.
 
-Remember: it is not a sprint. It is a long long marathon. Don’t expect to learn everything overnight.It doesn’thappen like that.
+Remember: it is not a sprint. It is a long long marathon. Don’t expect to learn everything overnight. It doesn’thappen like that.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*TWEjK-8fXse8_4lyz-2YRA.png)
 
