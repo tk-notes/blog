@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)  | [:link:](https://dev.to/leandrotk_/functional-programming-principles-in-javascript-26g7) | :x: | [:computer:](https://github.com/tk-notes/fp-in-javascript-article-source-code) |
+| [:link:](https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa)  | [:link:](https://dev.to/leandrotk_/functional-programming-principles-in-javascript-26g7) | [:link:](https://www.codementor.io/leandrotk100/functional-programming-principles-in-javascript-pna549qzl) | [:computer:](https://github.com/tk-notes/fp-in-javascript-article-source-code) |
 
 ********
 
