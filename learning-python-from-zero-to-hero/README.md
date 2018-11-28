@@ -12,7 +12,7 @@ First of all, what is Python? According to its creator, Guido van Rossum, Python
 
 > “high-level programming language, and its core design philosophy is all about code readability and a syntax which allows programmers to express concepts in a few lines of code.”
 
-programming language. It was really natural to code in it and express my thoughts.
+For me, the first reason to learn Python was that it is, in fact, a beautiful programming language. It was really natural to code in it and express my thoughts.
 
 Another reason was that we can use coding in Python in multiple ways: data science, web development, and machine learning all shine here. Quora, Pinterest and Spotify all use Python for their backend web development. So let’s learn a bit about it.
 
@@ -35,7 +35,7 @@ two = 2
 some_number = 10000
 ```
 
-And you can assign any other **value** to whatever other **variables **you want. As you see in the table above, the variable “**two**” stores the integer **2**, and “**some_number**” stores **10,000**.
+And you can assign any other **value** to whatever other **variables** you want. As you see in the table above, the variable “**two**” stores the integer **2**, and “**some_number**” stores **10,000**.
 
 Besides integers, we can also use booleans (True / False), strings, float, and so many other data types.
 
@@ -89,9 +89,9 @@ else:
 
 #### 3. Looping / Iterator
 
-In Python, we can iterate in different forms. I’ll talk about two: **while **and **for**.
+In Python, we can iterate in different forms. I’ll talk about two: **while** and **for**.
 
-**While **Looping: while the statement is True, the code inside the block will be executed. So, this code will print the number from **1** to **10**.
+**While** Looping: while the statement is True, the code inside the block will be executed. So, this code will print the number from **1** to **10**.
 
 ```python
 num = 1
@@ -201,7 +201,7 @@ dictionary_example = {
 }
 ```
 
-The **key** is the index pointing to the** value**. How do we access the `Dictionary` **value**? You guessed it — using the **key**. Let’s try it:
+The **key** is the index pointing to the **value**. How do we access the `Dictionary` **value**? You guessed it — using the **key**. Let’s try it:
 
 ```python
 dictionary_tk = {
@@ -221,7 +221,7 @@ As we learned how to access the `List` using index, we also use indices (**keys*
 
 In the example, I printed a phrase about me using all the values stored in the `Dictionary`. Pretty simple, right?
 
-Another cool thing about `Dictionary` is that we can use anything as the value. In the `Dictionary`** **I created, I want to add the **key** “age” and my real integer age in it:
+Another cool thing about `Dictionary` is that we can use anything as the value. In the `Dictionary` **I created, I want to add the **key** “age” and my real integer age in it:
 
 ```python
 dictionary_tk = {
@@ -252,11 +252,11 @@ dictionary_tk['age'] = 24
 print(dictionary_tk) # {'nationality': 'Brazilian', 'age': 24, 'nickname': 'Tk', 'name': 'Leandro'}
 ```
 
-We just need to assign a **value** to a `Dictionary`** key**. Nothing complicated here, right?
+We just need to assign a **value** to a `Dictionary` **key**. Nothing complicated here, right?
 
 ### Iteration: Looping Through Data Structures
 
-As we learned in the [Python Basics](https://medium.com/the-renaissance-developer/python-101-the-basics-441136fb7cc3), the `List` iteration is very simple. We `Python`** **developers commonly use `For` looping. Let’s do it:
+As we learned in the [Python Basics](https://medium.com/the-renaissance-developer/python-101-the-basics-441136fb7cc3), the `List` iteration is very simple. We `Python` developers commonly use `For` looping. Let’s do it:
 
 ```python
 bookshelf = [
@@ -338,7 +338,7 @@ Python, as an Object-Oriented programming language, has these concepts: **class*
 
 A class is a blueprint, a model for its objects.
 
-So again, a class it is just a model, or a way to define **attributes** and **behavior** (as we talked about in the theory section). As an example, a vehicle **class** has its own **attributes** that define what **objects **are vehicles. The number of wheels, type of tank, seating capacity, and maximum velocity are all attributes of a vehicle.
+So again, a class it is just a model, or a way to define **attributes** and **behavior** (as we talked about in the theory section). As an example, a vehicle **class** has its own **attributes** that define what **objects** are vehicles. The number of wheels, type of tank, seating capacity, and maximum velocity are all attributes of a vehicle.
 
 With this in mind, let’s look at Python syntax for **classes**:
 
@@ -347,7 +347,7 @@ class Vehicle:
     pass
 ```
 
-We define classes with a **class statement — **and that’s it. Easy, isn’t it?
+We define classes with a class statement — and that’s it. Easy, isn’t it?
 
 **Objects** are instances of a **class**. We create an instance by naming the class.
 
@@ -636,7 +636,7 @@ In object-oriented programming, classes can inherit common characteristics (data
 
 Let’s see another example and implement it in Python.
 
-**ElectricCar **class inherits these same attributes from the regular **Car** class.
+**ElectricCar** class inherits these same attributes from the regular **Car** class.
 
 ```python
 class Car:
