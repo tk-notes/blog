@@ -9,3 +9,7 @@ A repository to store all Medium posts I wrote
 ## February, 2018
 
 - [Actionable advice to start learning to code](https://github.com/tk-notes/medium-posts/tree/master/actionable-advice-to-start-learning-to-code)
+
+## September, 2017
+
+- [Learning Python: From Zero to Hero](https://github.com/tk-notes/medium-posts/blob/master/learning-python-from-zero-to-hero/README.md)
