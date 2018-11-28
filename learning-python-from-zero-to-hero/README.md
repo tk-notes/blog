@@ -221,7 +221,7 @@ As we learned how to access the `List` using index, we also use indices (**keys*
 
 In the example, I printed a phrase about me using all the values stored in the `Dictionary`. Pretty simple, right?
 
-Another cool thing about `Dictionary` is that we can use anything as the value. In the `Dictionary` **I created, I want to add the **key** “age” and my real integer age in it:
+Another cool thing about `Dictionary` is that we can use anything as the value. In the `Dictionary` I created, I want to add the **key** “age” and my real integer age in it:
 
 ```python
 dictionary_tk = {
