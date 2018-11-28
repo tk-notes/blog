@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567) | [:link](https://dev.to/leandrotk_/learning-python-from-zero-tohero-151h) | [:link](https://www.codementor.io/leandrotk100/learning-python-from-zero-to-hero-pqmxb3711) | :x: |
+| [:link:](https://medium.freecodecamp.org/learning-python-from-zero-to-hero-120ea540b567) | [:link:](https://dev.to/leandrotk_/learning-python-from-zero-tohero-151h) | [:link:](https://www.codementor.io/leandrotk100/learning-python-from-zero-to-hero-pqmxb3711) | :x: |
 
 ********
 
