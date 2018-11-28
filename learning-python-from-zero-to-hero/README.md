@@ -712,4 +712,4 @@ For more stories and posts about my journey learning & mastering programming, fo
 
 Have fun, keep learning, and always keep coding.
 
-My [Mediumn](https://medium.com/@leandrotk_), [Twitter](https://twitter.com/LeandroTk_) & [Github](https://github.com/LeandroTk). ☺
+My [Medium](https://medium.com/@leandrotk_), [Twitter](https://twitter.com/LeandroTk_) & [Github](https://github.com/LeandroTk). ☺
