@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d) | :x: | :x: | :x: |
+| [:link:](https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d) | [:link:](https://dev.to/leandrotk_/learning-ruby-from-zero-tohero-2oj) | :x: | :x: |
 
 ********
 
