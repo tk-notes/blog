@@ -14,3 +14,4 @@ A repository to store all Medium posts I wrote
 
 - [Learning Python: From Zero to Hero](https://github.com/tk-notes/medium-posts/blob/master/learning-python-from-zero-to-hero/README.md)
 - [Learning Ruby: From Zero to Hero](https://github.com/tk-notes/medium-posts/tree/master/learning-ruby-from-zero-to-hero)
+- [Idiomatic Ruby: writing beautiful code](https://github.com/tk-notes/medium-posts/tree/master/idiomatic-ruby-writing-beautiful-code)
