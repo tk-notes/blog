@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.freecodecamp.org/idiomatic-ruby-writing-beautiful-code-6845c830c664) | :x: | [:link:](https://www.codementor.io/leandrotk100/idiomatic-ruby-writing-beautiful-code-pwdt8a8kq) | :x: |
+| [:link:](https://medium.freecodecamp.org/idiomatic-ruby-writing-beautiful-code-6845c830c664) | [:link:](https://dev.to/leandrotk_/idiomatic-ruby-writing-beautiful-code-56ef) | [:link:](https://www.codementor.io/leandrotk100/idiomatic-ruby-writing-beautiful-code-pwdt8a8kq) | :x: |
 
 ********
 
