@@ -6,6 +6,8 @@
 
 # Everything you need to know about tree data structures
 
+![](https://cdn-images-1.medium.com/max/1000/1*WeWOBZy6N7cXkq4inS7FVA.jpeg)
+
 When you first learn to code, it’s common to learn arrays as the “main data structure.”
 
 Eventually, you will learn about `hash tables` too. If you are pursuing a Computer Science degree, you have to take a class on data structure. You will also learn about `linked lists`, `queues`, and `stacks`. Those data structures are called “linear” data structures because they all have a logical start and a logical end.
