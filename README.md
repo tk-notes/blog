@@ -10,6 +10,10 @@ A repository to store all Medium posts I wrote
 
 - [Actionable advice to start learning to code](https://github.com/tk-notes/medium-posts/tree/master/actionable-advice-to-start-learning-to-code)
 
+## November, 2017
+
+- [Everything you need to know about tree data structures](https://github.com/tk-notes/medium-posts/tree/master/everything-you-need-to-know-about-tree-data-structures)
+
 ## September, 2017
 
 - [Learning Python: From Zero to Hero](https://github.com/tk-notes/medium-posts/blob/master/learning-python-from-zero-to-hero/README.md)
