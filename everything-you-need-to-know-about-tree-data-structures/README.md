@@ -1,3 +1,9 @@
+| Medium | Dev.to | Codementor | Source code |
+|---|---|---|---|
+| [:link:](https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c) | :x: | :x: | :x: |
+
+********
+
 # Everything you need to know about tree data structures
 
 When you first learn to code, it’s common to learn arrays as the “main data structure.”
