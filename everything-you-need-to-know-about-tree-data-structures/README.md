@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c) | :x: | :x: | :x: |
+| [:link:](https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c) | [:link:](https://dev.to/leandrotk_/everything-you-need-to-know-about-tree-data-structures-2599) | [:link:](https://www.codementor.io/leandrotk100/everything-you-need-to-know-about-tree-data-structures-pynnlkyud) | :x: |
 
 ********
 
