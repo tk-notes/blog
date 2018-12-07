@@ -1,3 +1,7 @@
+| Medium | Dev.to | Codementor  |
+|---|---|---|
+| [:link:](https://medium.freecodecamp.org/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a)  | :x: | :x: |
+
 # Understanding the basics of Ruby on Rails: HTTP, MVC, and Routes
 
 After learning your [first programming language](https://medium.freecodecamp.org/learning-ruby-from-zero-to-hero-90ad4eecc82d), you may ask what can you do with programming: AI/Machine Learning? Hardware development? Mobile apps? Or maybe you want to start developing web applications! :)
