@@ -13,6 +13,7 @@ A repository to store all Medium posts I wrote
 ## January, 2018
 
 - [Understanding the basics of Ruby on Rails: HTTP, MVC, and Routes](https://github.com/tk-notes/medium-posts/tree/master/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes)
+- [Understanding the basics of Ruby on Rails: SQL Databases and how they work](https://github.com/tk-notes/medium-posts/tree/master/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work)
 
 ## November, 2017
 
