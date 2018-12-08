@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor  |
 |---|---|---|
-| [:link:](https://medium.freecodecamp.org/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a)  | :x: | :x: |
+| [:link:](https://medium.freecodecamp.org/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-359b8d809c7a)  | [:link:](https://dev.to/leandrotk_/understanding-the-basics-of-ruby-on-rails-http-mvc-androutes-37j4) | [:link:](https://www.codementor.io/leandrotk100/understanding-the-basics-of-ruby-on-rails-http-mvc-and-routes-q1s1qf65g) |
 
 # Understanding the basics of Ruby on Rails: HTTP, MVC, and Routes
 
