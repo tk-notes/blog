@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor  |
 |---|---|---|
-| [:link:](https://medium.freecodecamp.org/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work-7a628cd42073)  | :x: | :x: |
+| [:link:](https://medium.freecodecamp.org/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work-7a628cd42073)  | [:link:](https://dev.to/leandrotk_/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-theywork-1k15) | [:link:](https://www.codementor.io/leandrotk100/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work-q20u6geed) |
 
 # Understanding the basics of Ruby on Rails: SQL Databases and how they work
 
