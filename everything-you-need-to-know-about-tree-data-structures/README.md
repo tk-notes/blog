@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| [:link:](https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c) | [:link:](https://dev.to/leandrotk_/everything-you-need-to-know-about-tree-data-structures-2599) | [:link:](https://www.codementor.io/leandrotk100/everything-you-need-to-know-about-tree-data-structures-pynnlkyud) | :x: |
+| [:link:](https://medium.freecodecamp.org/all-you-need-to-know-about-tree-data-structures-bceacb85490c) | [:link:](https://dev.to/leandrotk_/everything-you-need-to-know-about-tree-data-structures-2599) | [:link:](https://www.codementor.io/leandrotk100/everything-you-need-to-know-about-tree-data-structures-pynnlkyud) | [:link:](https://github.com/leandrotk/algorithms/tree/master/computer_science/data_structures/binary_search_tree) |
 
 ********
 
@@ -723,7 +723,7 @@ This is one more step forward in my journey to learning and mastering algorithms
 
 Have fun, keep learning and coding.
 
-Here are my [Medium](https://www.medium.com/@leandrotk_), [Twitter](https://twitter.com/LeandroTk_), [GitHub](https://github.com/LeandroTk), and [LinkedIn](http://br.linkedin.com/in/leandrotk/) accounts.☺
+Here are my [Medium](https://www.medium.com/@leandrotk_), [Twitter](https://twitter.com/LeandroTk_) & [GitHub](https://github.com/LeandroTk) accounts.☺
 
 ### Additional resources
 
