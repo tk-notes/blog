@@ -1,6 +1,10 @@
 # Medium Posts
 A repository to store all Medium posts I wrote
 
+## March, 2020
+
+- [Closures, Currying, and Cool Abstractions](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions)
+
 ## November, 2018
 
 - [An introduction to the basic principles of Functional Programming](https://github.com/LeandroTk/medium-posts/tree/master/an-introduction-to-the-basic-principles-of-functional-programming)

@@ -1,6 +1,6 @@
 | Medium | Dev.to | Codementor | Source code |
 |---|---|---|---|
-| :x: | :x: | :x: | :x: |
+| :x: | :x: | :x: | [:computer:](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions) |
 
 ********
 
