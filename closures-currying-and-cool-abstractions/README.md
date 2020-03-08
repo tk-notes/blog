@@ -14,7 +14,7 @@ So closure is a common topic in JavaScript and we will start with it. As MDN web
 
 > "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment)."
 
-Basically, every time a function is created, a closure is also created and it gives access to all state (variables, constants, functions, etc). It is known as the `lexical environment`.
+Basically, every time a function is created, a closure is also created and it gives access to all state (variables, constants, functions, etc). The surrounding state is known as the `lexical environment`.
 
 Let's show a simple example:
 
@@ -46,7 +46,7 @@ myFunction(); // TK
 
 Great! It works as expected! The return of the `makeFunction` is a function that we store it in the `myFunction` constant, call it later, and displays `TK`.
 
-We can also make it work as a arrow function:
+We can also make it work as an arrow function:
 
 ```javascript
 const makeFunction = () => {
@@ -76,7 +76,8 @@ const myFunction = makeFunction('Dan');
 myFunction(); // Dan
 ```
 
-The function created is not only aware of constants/variables, but also other functions.
+Our `myFunction` is aware of the arguments passed: default or dynamic value.
+The closure does make the created function not only aware of constants/variables, but also other functions within the function.
 
 So this also works:
 
@@ -90,7 +91,7 @@ const myFunction = makeFunction();
 myFunction(); // TK
 ```
 
-The returned function knows about the `display` function and is able to call it.
+The returned function knows about the `display` function and it is able to call it.
 
 One powerful technique is to use closures to build "private" functions and variables.
 
@@ -221,7 +222,7 @@ const addTen = add(10);
 addTen(20); // 30
 ```
 
-And this is interesting. We can generate specialized functions by calling the first function. Imagine we want a `increment` function. We can generate it from our `add` function by passing the `1` as the value.
+And this is interesting. We can generate specialized functions by calling the first function. Imagine we want an `increment` function. We can generate it from our `add` function by passing the `1` as the value.
 
 ```javascript
 const increment = add(1);
