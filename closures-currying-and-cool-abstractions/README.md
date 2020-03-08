@@ -6,6 +6,8 @@
 
 # Closures, Currying, and Cool Abstractions
 
+![](https://images.japancentre.com/recipes/pics/6/main/6-pork-katsu-curry.jpg?1469572800)
+
 In this article, we will talk about closures, curried functions, and play around with these concepts to build cool abstractions. I want to show the idea behind each concept, but also make it very practical with examples and refactor code to make it more fun.
 
 ## Closures
@@ -382,3 +384,9 @@ result; // [{ id: 1, name: 'TK' }]
 ---
 
 That's it for today. We could go on and on showing a lot of different examples of abstractions, but now I let you play with those concepts.
+
+## Resources
+
+- [Blog post source code](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions)
+- [Closures | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [Currying | Fun Fun Function](https://www.youtube.com/watch?v=iZLP4qOwY8I)
