@@ -103,7 +103,7 @@ The first data structure I was learning was the Stack. It is pretty simple. The 
 
 - `push`: add an item to the first place of the stack
 - `pop`: remove the first item from the stack
-- `peek`: get the first item from the
+- `peek`: get the first item from the stack
 - `isEmpty`: verify if the stack is empty
 - `size`: get the number of items the stack has
 
