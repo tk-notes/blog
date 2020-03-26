@@ -1,27 +1,6 @@
-describe('hasRealEstateDraft', () => {
-  describe('with real estate drafts', () => {
-    it('returns true', () => {
-      const realEstateDrafts = [
-        {
-          address: 'São Paulo',
-          status: 'UNSAVED'
-        }
-      ];
-
-      expect(hasRealEstateDraft(realEstateDrafts)).toBeTruthy();
-    });
-  });
-
-  describe('with not drafts', () => {
-    it('returns false', () => {
-      expect(hasRealEstateDraft([])).toBeFalsy();
-    });
-  });
-});
-
 describe('getRealEstateDrafts', () => {
   describe('with an empty list', () => {
-    it('returns true', () => {
+    it('returns an empty list', () => {
       const realEstates = [];
 
       expect(getRealEstateDrafts(realEstates)).toMatchObject([]);
@@ -29,7 +8,7 @@ describe('getRealEstateDrafts', () => {
   });
 
   describe('with only unsaved real estates', () => {
-    it('returns false', () => {
+    it('returns the drafts', () => {
       const realEstates = [
         {
           address: 'São Paulo',
@@ -46,7 +25,7 @@ describe('getRealEstateDrafts', () => {
   });
 
   describe('with only saved real estates', () => {
-    it('returns false', () => {
+    it('returns an empty list', () => {
       const realEstates = [
         {
           address: 'São Paulo',
@@ -63,7 +42,7 @@ describe('getRealEstateDrafts', () => {
   });
 
   describe('with saved and unsaved real estates', () => {
-    it('returns false', () => {
+    it('returns the drafts', () => {
       const realEstates = [
         {
           address: 'São Paulo',
