@@ -1,6 +1,6 @@
-| Medium | Dev.to | Codementor | Source code |
-|---|---|---|---|
-| :x: | :x: | :x: | [:computer:](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions) |
+| Medium | Dev.to | Codementor | Hashnode | Source code |
+|---|---|---|---|---|
+| :x: | [:computer:](https://dev.to/teekay/playing-around-with-closures-currying-and-cool-abstractions-3ga5) | :x: | [:computer:](https://tk.hashnode.dev/playing-around-with-closures-currying-and-cool-abstractions-ck7l71oa100668ss1kdevscjs) | [:computer:](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions) |
 
 ********
 
