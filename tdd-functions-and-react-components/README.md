@@ -4,18 +4,19 @@
 
 This is part of my studies on how to build sustainable and consistent software. In this post we will talk about the thinking behind the testing driven development and how to apply this knowledge to simple functions, web accessibility, and React components, manly with Jest and React Testing Library.
 
-Aumated tests are a big part of software development. It give us, developers, confidence to ship code to production fast and consistly without the fear of breaking everything. Actually, fear will be there, but we increase the confidence that the software will be up and running and working appropriately.
+Automated tests are a big part of software development. It give us, developers, confidence to ship code to
+be there, but we increase the confidence that the software will be up and running and working appropriately.
 
 I began my software career in the Ruby community writing tests from the first day I learned the language. The Ruby (and Rails) community was always strong in the testing automation area. It helped shape my mindset on how to write good software.
 
-So using Ruby and Rails, I did a lot of backend stuff like background jobs, data structure modeling, API building, and so on. In this scope, the user is always one: the developer user. If building an API, the user would be the developer that's consuming the API. If build the models, the user would be the developer that will use this model.
+So using Ruby and Rails, I did a lot of backend stuff like background jobs, data structure modeling, API building, and so on. In this scope, the user is always one: the developer user. If building an API, the user would be the developer that's consuming the API. If building the models, the user would be the developer that will use this model.
 
 Now doing a lof of frontend stuff too, after 1 intense year of building PWAs using mostly React and Redux, at first some thoughts came to my mind:
 
-- TDD is impossible building UI stuff. How do I know if it is a div or span?
+- TDD is impossible when building UI stuff. How do I know if it is a div or span?
 - Testing can be "complex". Should I shallow or should I mount? Test everything? Ensure every div should be the right place?
 
-So I start re-thinking about these testing practices and how to make it productive.
+So I started re-thinking about these testing practices and how to make it productive.
 
 TDD is possible. If I'm wondering if I should expect a div or a span, I'm probably testing the wrong thing. Remember: tests should give us confidence to ship, not necessary cover every bit or implementation details. We will dive in into this topic later!
 
@@ -25,12 +26,12 @@ I want to build tests that:
 - Give confidence to ship code to production
 - Make us think about software design
 
-And makes software:
+And tests that make software:
 
 - Easy to maintain
 - Easy to refactor
 
-## Testing Drive Development
+## Testing Driven Development
 
 TDD shouldn't be complex. It is just a process of 3 steps:
 
@@ -467,9 +468,13 @@ const Content = ({ businessContext, step }) => {
 
 ## Final thoughts
 
-I like to think deeply about the tests I'm writing. And I think all developers should too. It does need to give us confidence to ship more code and have a bigger impact the market we are working on.
+I like to think deeply about the tests I'm writing. And I think all developers should too. It does need to give us confidence to ship more code and have a bigger impact in the market we are working on.
 
 As all code, when we write smelly and bad tests, it influences other developers to follow the "pattern". It gets worse in bigger companies. It scales badly. But we are always able to stop, reflect about the status quo, and take action to make it better.
+
+I shared some resources I found interesting reading and learning. If you want to get a great introduction to TDD, I really recommend TDD by example, a book from Kent Beck.
+
+I will write more about tests, TDD, and React. And how we can make our software more consistent and feel safe when shipping code to production.
 
 ---
 
