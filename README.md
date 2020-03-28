@@ -7,6 +7,10 @@ A repository to store all blog posts I wrote
 - [TDD, functions, and React components](https://github.com/tk-notes/blog/tree/master/tdd-functions-and-react-components)
 - [Closures, Currying, and Cool Abstractions](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions)
 
+## January, 2020
+
+- [Building an abstraction for React internationalization messages](https://github.com/tk-notes/blog/tree/master/building-an-abstraction-for-react-internationalization-messages)
+
 ## September, 2019
 
 - [Designing my Learning Experience](https://github.com/tk-notes/blog/tree/master/designing-my-learning-experience)
