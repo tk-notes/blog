@@ -9,6 +9,7 @@ A repository to store all blog posts I wrote
 
 ## January, 2020
 
+- [Queue Data Structure](https://github.com/tk-notes/blog/tree/master/queue-data-structure)
 - [Stack Data Structure](https://github.com/tk-notes/blog/tree/master/stack-data-structure)
 - [Building an abstraction for React internationalization messages](https://github.com/tk-notes/blog/tree/master/building-an-abstraction-for-react-internationalization-messages)
 
