@@ -3,6 +3,7 @@ A repository to store all Medium posts I wrote
 
 ## March, 2020
 
+- [TDD, functions, and React components](https://github.com/tk-notes/blog/tree/master/tdd-functions-and-react-components)
 - [Closures, Currying, and Cool Abstractions](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions)
 
 ## November, 2018
