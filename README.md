@@ -1,10 +1,15 @@
-# Medium Posts
-A repository to store all Medium posts I wrote
+# Blog Posts
+
+A repository to store all blog posts I wrote
 
 ## March, 2020
 
 - [TDD, functions, and React components](https://github.com/tk-notes/blog/tree/master/tdd-functions-and-react-components)
 - [Closures, Currying, and Cool Abstractions](https://github.com/tk-notes/blog/tree/master/closures-currying-and-cool-abstractions)
+
+## September, 2019
+
+- [Designing my Learning Experience](https://github.com/tk-notes/blog/tree/master/designing-my-learning-experience)
 
 ## November, 2018
 
