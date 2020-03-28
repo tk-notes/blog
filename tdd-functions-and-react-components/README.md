@@ -2,9 +2,13 @@
 
 ![](https://cdn-images-1.medium.com/max/1600/0*Es4A_-yTrMYikiom)
 
-This is part of my studies on how to build sustainable and consistent software. In this post we will talk about the thinking behind the testing driven development and how to apply this knowledge to simple functions, web accessibility, and React components, manly with Jest and React Testing Library.
+---
 
-Automated tests are a big part of software development. It give us, developers, confidence to ship code to
+This article was first published at the [TK's blog](https://leandrotk.github.io/tk/2020/03/tdd-functions-and-react-components/index.html).
+
+This is part of my studies on how to build sustainable and consistent software. In this post, we will talk about the thinking behind the testing driven development and how to apply this knowledge to simple functions, web accessibility, and React components, mostly with Jest and React Testing Library.
+
+Automated tests are a big part of software development. It gives us, developers, confidence to ship code to
 be there, but we increase the confidence that the software will be up and running and working appropriately.
 
 I began my software career in the Ruby community writing tests from the first day I learned the language. The Ruby (and Rails) community was always strong in the testing automation area. It helped shape my mindset on how to write good software.
@@ -18,12 +22,12 @@ Now doing a lof of frontend stuff too, after 1 intense year of building PWAs usi
 
 So I started re-thinking about these testing practices and how to make it productive.
 
-TDD is possible. If I'm wondering if I should expect a div or a span, I'm probably testing the wrong thing. Remember: tests should give us confidence to ship, not necessary cover every bit or implementation details. We will dive in into this topic later!
+TDD is possible. If I'm wondering if I should expect a div or a span, I'm probably testing the wrong thing. Remember: tests should give us the confidence to ship, not necessarily to cover every bit or implementation details. We will dive into this topic later!
 
 I want to build tests that:
 
 - Ensure the software works appropriately
-- Give confidence to ship code to production
+- Give the confidence to ship code to production
 - Make us think about software design
 
 And tests that make software:
@@ -41,9 +45,9 @@ TDD shouldn't be complex. It is just a process of 3 steps:
 
 We start writing a simple test to cover how we expect the software works. Then we make the first implementation of the code (class, function, script, etc). Now the software is behaving. It works as expected. Time to make it right. Time to make it better.
 
-The goal is clean code that works. We solve the "that works" problem first and then make the code clean.
+The goal is a clean code that works. We solve the "that works" problem first and then make the code clean.
 
-It is pretty simple. And it should be. I didin't say it is easy. But it is simple, straightforward, just 3 steps. Everytime you exercise this process of writing tests first, code after, and then refactoring, you feel more confident.
+It is pretty simple. And it should be. I didn't say it is easy. But it is simple, straightforward, just 3 steps. Every time you exercise this process of writing tests first, code after, and then refactoring, you feel more confident.
 
 One good technique when writing your tests first is to think about use cases and simulate how it should be used (as a function, component, or used by a real user).
 
@@ -58,7 +62,7 @@ So first step: writing the test! Let's think of the use cases of this function. 
 - Has no unsaved real estate draft: `false`
 - Has at least one unsaved real estate draft: `true`
 
-Let's write the tests that represent these behaviour:
+Let's write the tests that represent this behavior:
 
 ```javascript
 describe('hasRealEstateDraft', () => {
@@ -83,7 +87,7 @@ describe('hasRealEstateDraft', () => {
 });
 ```
 
-We wrote the tests. But when running it, it show go red: 2 broken tests because we do not have the function implemented yet.
+We wrote the tests. But when running it, it shows go red: 2 broken tests because we do not have the function implemented yet.
 
 Second step: make it run! In this case, it is pretty simple. We need to receive this array object and return if it has or hasn't at least one real estate draft.
 
@@ -91,13 +95,13 @@ Second step: make it run! In this case, it is pretty simple. We need to receive 
 const hasRealEstateDraft = (realEstateDrafts) => realEstateDrafts.length > 0;
 ```
 
-Great! Simple function. Simple tests. We could go to the step 3: make it right! But in this case, our function is really simple and we've already got it right.
+Great! Simple function. Simple tests. We could go to step 3: make it right! But in this case, our function is really simple and we've already got it right.
 
 But now we need the function to get the real estate drafts and pass it to the `hasRealEstateDraft`.
 
 Which use case we can think of?
 
-- Empty list of real estates
+- An empty list of real estates
 - Only saved real estates
 - Only unsaved real estates
 - Mixed: save and unsaved real estates
@@ -181,7 +185,7 @@ const getRealEstatesDrafts = (realEstates) => {
 
 We simply filter by the real estate status and return it. Great, the tests are passing, the bar is green! And the software is behaving, but we can make it better: step 3!
 
-What about extracting the anonimous function within the `filter` function and make the `'UNSAVED'` be represented by an enum?
+What about extracting the anonymous function within the `filter` function and make the `'UNSAVED'` be represented by an enum?
 
 ```javascript
 const STATUS = {
@@ -204,17 +208,17 @@ If we get the `localStorage` inside our functions, it becomes hard to test. So w
 
 Now let's talk about React components. Back to the introduction, we talked about writing tests that test implementation details. And now we will see how we can make it better, more sustainable, and have more confidence.
 
-A couple days ago I was plannig to build the new onboarding information for the real estate owner. It is basically a bunch of pages with the same design, but it changes the icon, title, and description among the pages.
+A couple of days ago I was planning to build the new onboarding information for the real estate owner. It is basically a bunch of pages with the same design, but it changes the icon, title, and description of the pages.
 
 ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/215bd28c-ebd0-4f51-ac02-2b7259ed07aa/Screen_Shot_2020-03-26_at_11.57.05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/215bd28c-ebd0-4f51-ac02-2b7259ed07aa/Screen_Shot_2020-03-26_at_11.57.05.png)
 
 I wanted to build just one component: `Content` and pass the information needed to render the correct icon, title, and description. I would pass `businessContext` and `step` as props and it would render the correct content to the onboarding page.
 
-We don't want to know if we will render a div or paragraph tag. Our test need to ensure that for a given business context and step, the correct content will be there. So I came with these use cases:
+We don't want to know if we will render a div or paragraph tag. Our test needs to ensure that for a given business context and step, the correct content will be there. So I came with these use cases:
 
-- First step of the rental business context
+- The first step of the rental business context
 - Last step of the rental business context
-- First step of the sales business context
+- The first step of the sales business context
 - Last step of the sales business context
 
 Let's see the tests:
@@ -267,7 +271,7 @@ describe('Content', () => {
 });
 ```
 
-We have one `describe` block for each business context and a `it` block for each step. I also created an accessbility test to ensure the component we are building is accessible.
+We have one `describe` block for each business context and an `it` block for each step. I also created an accessibility test to ensure the component we are building is accessible.
 
 ```javascript
 it('has not accessibility violations', async () => {
@@ -299,7 +303,7 @@ We just need to build the logic to get all these correct data. As I have the `bu
 content[businessContext][step]
 ```
 
-And it get the correct content. So I built a data structure to work that way.
+And it gets the correct content. So I built a data structure to work that way.
 
 ```javascript
 const onboardingStepsContent = {
@@ -357,14 +361,14 @@ const Content = ({ businessContext, step }) => {
 };
 ```
 
-It works! Now let's make it better. I wanted to make the get content more resilient. What if it receives step that doesn't exist for example? These are the use cases:
+It works! Now let's make it better. I wanted to make the get content more resilient. What if it receives a step that doesn't exist for example? These are the use cases:
 
-- First step of the rental business context
+- The first step of the rental business context
 - Last step of the rental business context
-- First step of the sales business context
+- The first step of the sales business context
 - Last step of the sales business context
-- Inexistent step of the rental busines context
-- Inexistent step of the sales busines context
+- Inexistent step of the rental business context
+- Inexistent step of the sales business context
 
 Let's see the tests:
 
@@ -432,7 +436,7 @@ const getOnboardingStepContent = ({ businessContext, step }) => {
 };
 ```
 
-We try to get content. If we have it, just return it. If don't have it, return the first step of the onboarding.
+We try to get content. If we have it, just return it. If we don't have it, return the first step of the onboarding.
 
 Neat! But we can improve it. What about using the `||` operator? No need to assign to a variable, no need to use a ternary.
 
@@ -468,9 +472,9 @@ const Content = ({ businessContext, step }) => {
 
 ## Final thoughts
 
-I like to think deeply about the tests I'm writing. And I think all developers should too. It does need to give us confidence to ship more code and have a bigger impact in the market we are working on.
+I like to think deeply about the tests I'm writing. And I think all developers should too. It does need to give us the confidence to ship more code and have a bigger impact on the market we are working on.
 
-As all code, when we write smelly and bad tests, it influences other developers to follow the "pattern". It gets worse in bigger companies. It scales badly. But we are always able to stop, reflect about the status quo, and take action to make it better.
+Like all code, when we write smelly and bad tests, it influences other developers to follow the "pattern". It gets worse in bigger companies. It scales badly. But we are always able to stop, reflect on the status quo, and take action to make it better.
 
 I shared some resources I found interesting reading and learning. If you want to get a great introduction to TDD, I really recommend TDD by example, a book from Kent Beck.
 
@@ -480,6 +484,9 @@ I will write more about tests, TDD, and React. And how we can make our software 
 
 ## Resources
 
+- [Test Driven Development by example book by Kent Beck](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530)
+- [Testable Javascript book by Mark Ethan Trostler](https://www.amazon.com/Testable-JavaScript-Ensuring-Reliable-Code/dp/1449323391/ref=sr_1_8?dchild=1&keywords=testing+javascript&qid=1585274935&s=books&sr=1-8)
+- [Blog post source code](https://github.com/tk-notes/blog/tree/master/tdd-functions-and-react-components)
 - [Testing React applications with jest, jest-axe, and react-testing-library](https://medium.com/hackernoon/testing-react-with-jest-axe-and-react-testing-library-accessibility-34b952240f53)
 - [Modern React testing, part 3: Jest and React Testing Library](https://blog.sapegin.me/all/react-testing-3-jest-and-react-testing-library/)
 - [What we found when we tested tools on the world’s least-accessible webpage](https://accessibility.blog.gov.uk/2017/02/24/what-we-found-when-we-tested-tools-on-the-worlds-least-accessible-webpage/)
