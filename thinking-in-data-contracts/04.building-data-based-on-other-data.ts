@@ -54,4 +54,4 @@ const payloadAPI = {
   lastVisit: new Date()
 };
 
-const person = fromAPI(payloadAPI);
+const person: Person = fromAPI(payloadAPI);

@@ -33,4 +33,4 @@ const payloadAPI = {
   email: 'tk@mail.com'
 };
 
-const person = fromAPI(payloadAPI);
+const person: Person = fromAPI(payloadAPI);
