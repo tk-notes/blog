@@ -1,7 +1,7 @@
 type PersonAPI = {
   id: number,
-  nome: string,
-  sobrenome?: string,
+  firstName: string,
+  lastName?: string,
   email: string
 };
 
@@ -12,9 +12,9 @@ type Person = {
 };
 
 const buildPersonName = (person: PersonAPI): string =>
-  person.sobrenome
-    ? `${person.nome} ${person.sobrenome}`
-    : person.nome;
+  person.lastName
+    ? `${person.firstName} ${person.lastName}`
+    : person.firstName;
 
 const fromAPI = (person: PersonAPI): Person => {
   const name: string = buildPersonName(person);
@@ -28,9 +28,11 @@ const fromAPI = (person: PersonAPI): Person => {
 
 const payloadAPI = {
   id: 1,
-  nome: 'TK',
-  sobrenome: 'Kinoshita',
+  firstName: 'TK',
+  lastName: 'Kinoshita',
   email: 'tk@mail.com'
 };
 
 const person: Person = fromAPI(payloadAPI);
+
+console.log(person);

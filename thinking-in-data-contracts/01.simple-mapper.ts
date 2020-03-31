@@ -23,3 +23,5 @@ const payloadAPI = {
 };
 
 const person: Person = fromAPI(payloadAPI);
+
+console.log(person);

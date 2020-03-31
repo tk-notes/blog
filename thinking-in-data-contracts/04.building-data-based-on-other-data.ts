@@ -1,7 +1,7 @@
 type PersonAPI = {
   id: number,
-  name: string,
-  lastname?: string,
+  firstName: string,
+  lastName?: string,
   email: string,
   status: string,
   lastVisit: Date
@@ -20,38 +20,47 @@ enum PersonStatus {
 };
 
 const buildPersonName = (person: PersonAPI): string =>
-  person.lastname
-    ? `${person.name} ${person.lastname}`
-    : person.name;
+  person.lastName
+    ? `${person.firstName} ${person.lastName}`
+    : person.firstName;
+
+const getWeekAgo = (): Date => {
+  const oneDayInMilliseconds: number = 24 * 3600 * 1000;
+  const sevenDaysInMilliseconds: number = oneDayInMilliseconds * 7;
+
+  return new Date(Date.now() - sevenDaysInMilliseconds);
+};
 
 const isActive = (person: PersonAPI): boolean => {
-  const oneDayMilliseconds: number = 24 * 3600 * 1000;
-  const sevenDaysMilliseconds: number = oneDayMilliseconds * 7;
-  const weekAgo: Date = new Date(Date.now() - sevenDaysMilliseconds);
+  const weekAgo: Date = getWeekAgo();
+  const hasActiveStatus: boolean = person.status === PersonStatus.Active;
+  const lastVisitInSevenDays: boolean = person.lastVisit >= weekAgo;
 
-  return person.status === PersonStatus.Active &&
-    person.lastVisit >= weekAgo;
+  return hasActiveStatus && lastVisitInSevenDays;
 };
 
 const fromAPI = (person: PersonAPI): Person => {
+  const { id, email } = person;
   const name: string = buildPersonName(person);
   const active: boolean = isActive(person);
 
   return {
-    id: person.id,
+    id,
     name,
-    email: person.email,
+    email,
     active
   };
 };
 
 const payloadAPI = {
   id: 1,
-  name: 'TK',
-  lastname: 'Kinoshita',
+  firstName: 'TK',
+  lastName: 'Kinoshita',
   email: 'tk@mail.com',
   status: 'active',
   lastVisit: new Date()
 };
 
 const person: Person = fromAPI(payloadAPI);
+
+console.log(person);
