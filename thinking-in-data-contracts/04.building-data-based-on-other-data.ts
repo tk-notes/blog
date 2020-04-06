@@ -40,7 +40,7 @@ const isActive = (person: PersonAPI): boolean => {
 };
 
 const fromAPI = (person: PersonAPI): Person => {
-  const { id, email } = person;
+  const { id, email }: PersonAPI = person;
   const name: string = buildPersonName(person);
   const active: boolean = isActive(person);
 
