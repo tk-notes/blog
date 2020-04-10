@@ -29,9 +29,9 @@ Date.yesterday
 
 Rails also provides other interesting APIs: `beginning_of_month`, `minutes.ago`, `days.ago`.
 
-So after a long time with Ruby and Rails, I started using JavaScript more and more. But the JavaScript Date object was really strange for me. I wanted to use all the Ruby/Rails date APIs, but in JavaScript and Typescript.
+So after a long time with Ruby and Rails, I started using JavaScript more and more. But the JavaScript Date object was really strange for me. I wanted to use all the Ruby/Rails date APIs but in JavaScript and Typescript.
 
-I didn't want to monkey patch or build new methods in the JavaScript Date object. I could just provide some simple functions and handle the date internally.
+I didn't want to monkey patch or build new methods in the JavaScript Date object. I could just provide some simple functions and handle the Date internally.
 
 ## Dating dates
 
@@ -51,7 +51,7 @@ const month: number = now.getMonth(); // 3
 const year: number = now.getFullYear(); // 2020
 ```
 
-We could experiment a whole bunch of other methods here, but I think we are good to move to the next part.
+We could experiment with a whole bunch of other methods here, but I think we are good to move to the next part.
 
 ## Fun with dates
 
@@ -100,7 +100,7 @@ With `today` function, we could just return the `new Date()` and we are good. Bu
 new Date(); // 2020-04-05T18:58:45
 ```
 
-But it would be great to return the beginning of the day. We could simply pass the day, month, and year to the `Date` and it will generates this for us.
+But it would be great to return the beginning of the day. We could simply pass the day, month, and year to the `Date` and it will generate this for us.
 
 ```typescript
 const today = (): Date => {
@@ -113,7 +113,7 @@ const today = (): Date => {
 };
 ```
 
-Great. The `yesterday` function would work very similiar. Just subtract the day and we are good to go.
+Great. The `yesterday` function would work very similarly. Just subtract the day and we are good to go.
 
 ```typescript
 const yesterday = (): Date => {
@@ -126,7 +126,7 @@ const yesterday = (): Date => {
 };
 ```
 
-But what happen when we subtract the day if the day is the first day of the month?
+But what happens when we subtract the day if the day is the first day of the month?
 
 ```typescript
 // date to handle
@@ -136,7 +136,7 @@ new Date(2020, 3, 1); // 2020-04-01
 new Date(2020, 3, 0); // 2020-03-31
 ```
 
-And what happen if it is the first day of the year?
+And what happens if it is the first day of the year?
 
 ```typescript
 // date to handle
@@ -148,7 +148,7 @@ new Date(2020, 0, 0); // 2019-12-31
 
 Yes, JavaScript can be pretty smart too!
 
-With these two new functions, we can also refactor the logic to get the separated date into a separated function.
+With these two new functions, we can also refactor the logic to get the separated date into a separate function.
 
 ```typescript
 const getSeparatedDate = (): { day: number, month: number, year: number } => {
@@ -196,7 +196,7 @@ const getSeparatedDate = (now: Date = new Date()): SeparatedDate => {
 };
 ```
 
-Now we have a function that can receive a new date, but if it doesn't, it just use the default value: the representation of `now`.
+Now we have a function that can receive a new date, but if it doesn't, it just uses the default value: the representation of `now`.
 
 How does our functions `today` and `yesterday` look like now?
 
@@ -214,14 +214,14 @@ const yesterday = (): Date => {
 };
 ```
 
-Both functions use the `getSeparatedDate` function to get the date attributes and return the appropriate date.
+Both functions use the `getSeparatedDate` function to get the Date attributes and return the appropriate date.
 
 ## Beginning of everything
 
-To build the `beginningOfDay`, it would look exatcly of the `today` function, as we want to the current date but at the beginning of the day.
+To build the `beginningOfDay`, it would look exactly of the `today` function, as we want to the current date but at the beginning of the day.
 
 ```typescript
-const beginningOfDay = (): Date => {
+const beginningOfDay = (date: Date = new Date()): Date => {
   const { day, month, year }: SeparatedDate = getSeparatedDate();
 
   return new Date(year, month, day);
@@ -230,10 +230,14 @@ const beginningOfDay = (): Date => {
 
 Nothing special here.
 
-For the `beginningOfMonth`, it will look like pretty much the same, but instead of using the `day`, we just set it to `1`.
+But just minor comment if you didn't notice: At first, I'm built this function to get the beginning of the day of the current day. But I wanted to make it flexible enough to get the beginning of the day of other days too.
+
+So "argument", right? Now the function receives a date, but it is flexible to not receive it too. I just handle it with a default value of the current date.
+
+For the `beginningOfMonth`, it will look pretty much the same, but instead of using the `day`, we just set it to `1`.
 
 ```typescript
-const beginningOfMonth = (): Date => {
+const beginningOfMonth = (date: Date = new Date()): Date => {
   const { month, year }: SeparatedDate = getSeparatedDate();
 
   return new Date(year, month, 1);
@@ -243,7 +247,7 @@ const beginningOfMonth = (): Date => {
 You got it, the `beginningOfYear` is similar. But also changing the `month` attribute.
 
 ```typescript
-const beginningOfYear = (): Date => {
+const beginningOfYear = (date: Date = new Date()): Date => {
   const { year }: SeparatedDate = getSeparatedDate();
 
   return new Date(year, 0, 1);
@@ -302,7 +306,7 @@ const get = (n: number): DateAgo => {
 
 We build each attribute: `dayAgo`, `monthAgo`, and `yearAgo` by basically handling the Date object as we know.
 
-But now we also need to implement the object in the plural: `daysAgo`, `monthsAgo`, and `yearsAgo`. But only for number greater than 1.
+But now we also need to implement the object in the plural: `daysAgo`, `monthsAgo`, and `yearsAgo`. But only for a number greater than 1.
 
 For these new attributes, we don't need to create a whole new date again. We can use the same value from the singular attributes.
 
